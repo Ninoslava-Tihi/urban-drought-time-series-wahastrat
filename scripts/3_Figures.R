@@ -21,7 +21,7 @@ library(forecast)
 
 # ---- Load data ----
 data_climate<-read_excel("monthly-data.xlsx")
-view(data_climate)
+
 
 # ---- Build a continuous time index (Year–Month) ----
 # Month may be numeric (1–12) or text (e.g., "January").
@@ -214,6 +214,7 @@ fig3
 
 ggsave("Figure3_Temperature_Holdout.png",
        fig3, width = 11, height = 5.8, dpi = 300)
+
 
 
 
