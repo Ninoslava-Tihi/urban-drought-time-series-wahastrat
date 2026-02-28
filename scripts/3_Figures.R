@@ -6,7 +6,7 @@
 # and Figure 3 (holdout forecast vs observed with prediction intervals).
 # Input: monthly-data.xlsx (columns: Year, Month, Temperature, Precipitation,
 #        SoilMoisture, WindSpeed)
-# Output: PNG files saved in /outputs
+# Output: PNG files saved
 # =========================================================
 
 # ---- Packages (install once manually if missing) ----
@@ -214,6 +214,7 @@ fig3
 
 ggsave("Figure3_Temperature_Holdout.png",
        fig3, width = 11, height = 5.8, dpi = 300)
+
 
 
 
