@@ -1,0 +1,5 @@
+"ClimaticVariable","RMSE","MAE","MAPE"
+"Temperature",1.8321,1.461,80.98
+"Precipitation",25.3008,22.0153,153.33
+"SoilMoisture",2.431,1.902,8.5
+"WindSpeed",0.2438,0.1991,85.35
